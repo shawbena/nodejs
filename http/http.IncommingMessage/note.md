@@ -1,6 +1,6 @@
 # http.IncommingMessage
 
-IncommingMessage 对象由 `http.Server` 或 `http.ClientRequest`创建，并作为第一个参数分别递给 `request` 和 `response` 事件。可以用他来访问响应状态、消息头、以及数据。
+`IncommingMessage` 对象由 `http.Server` 或 `http.ClientRequest`创建，并作为第一个参数分别递给 `request` 和 `response` 事件。可以用他来访问响应状态、消息头、以及数据。
 
 他实现了 `Readable Stream` 接口，还有以下额外的事件、方法、及属性。
 

@@ -4,3 +4,7 @@
 
 pre: module
 current: buffer
+
+url, stream, querystring
+
+http 状态码 301
